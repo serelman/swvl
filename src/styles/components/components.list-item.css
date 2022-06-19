@@ -1,0 +1,31 @@
+.user-list__item {
+    text-decoration: none;
+    color: var(--text-primary-color);
+    margin: .75rem;
+    width: 400px;
+    height: 140px;
+}
+
+.user-list__item:hover .user-list__item-content {
+    background: #22222290;
+}
+
+.user-list__item-content {
+    display: flex;
+    padding: 1rem;
+    background-color: var(--bg-color-secondary);
+    border-radius: 10px;
+}
+
+.user-list__item-info {
+    margin-left: 1rem;
+}
+
+.user-list__item-img img {
+    height: 100px;
+    width: 100px;
+}
+
+.user-list__item-username {
+    margin-bottom: 0.5rem;
+}

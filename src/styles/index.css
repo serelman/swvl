@@ -1,0 +1,12 @@
+@import "normalize.css";
+@import "variables.css";
+
+@import "components/components.css";
+@import "layouts/layouts.css";
+
+body {
+    background-color: var(--bg-color-primary);
+    color: var(--text-primary-color);
+    margin: 0;
+    padding: 0;
+}

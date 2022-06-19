@@ -1,0 +1,22 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile__img img {
+    width: 320px;
+}
+
+.user-profile__blog-link {
+    color: var(--text-primary-color);
+}
+
+.user-profile__blog-link:hover {
+    opacity: .8;
+}
+
+.user-profile__info-field {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

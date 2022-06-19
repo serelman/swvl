@@ -1,0 +1,7 @@
+:root {
+    --bg-color-primary: #333;
+    --bg-color-secondary: #222;
+
+    --text-primary-color: #ececec;
+    --error-color: #b70000;
+}
