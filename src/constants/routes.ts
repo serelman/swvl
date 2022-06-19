@@ -1,4 +1,5 @@
 export const ROUTES = {
-  HOME: '/',
-  USER: '/user/:username',
+  HOME: '/swvl',
+  USER: '/swvl/user',
+  USERNAME: '/swvl/user/:username',
 };

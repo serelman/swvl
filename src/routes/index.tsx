@@ -11,7 +11,7 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route path={ROUTES.HOME} element={<HomePage />} />
-      <Route path={ROUTES.USER} element={<ProfilePage />} />
+      <Route path={ROUTES.USERNAME} element={<ProfilePage />} />
       <Route
         path={'*'}
         element={<Navigate to={ROUTES.HOME} replace />}

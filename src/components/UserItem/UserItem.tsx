@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { ROUTES } from 'constants/routes';
 import { UserItem } from 'store/users';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +13,7 @@ export default function UserItemComponent({
   return (
     <Link
       className="user-list__item"
-      to={`/user/${login}`}
+      to={`${ROUTES.USER}/${login}`}
     >
       <div className="user-list__item-content">
         <div className="user-list__item-img">
